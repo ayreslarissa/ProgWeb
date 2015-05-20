@@ -1,0 +1,34 @@
+                div{
+                
+                    margin-top:100px;
+                    
+                
+                 }
+                p{
+    			   	border: 10px solid;
+					border-color:#BE9367;
+    				width:250px;
+    				text-align:center;
+    				border-top-right-radius: 20px;
+        			border-top-left-radius: 20px;
+        			border-bottom-left-radius: 20px;
+        			border-bottom-right-radius: 20px;
+					padding-top:20px;
+					padding-bottom: 20px;
+					padding-right: 10px;
+            		padding-left: 10px;
+                    background-color:#FFFFFF;
+
+			    }
+				body{			
+                     		 
+					 padding-left:300px;				 
+                     background:url('file:///C:/Users/Larissa/Documents/UFAM/Faculdade/7o%20Per%EDodo/WEB/ProgWeb/img/roma.jpg');
+                     background-size:1200px;;
+					 background-repeat:no-repeat; 	
+                     background-position:center;	
+                     height:600px;
+                   
+
+					
+				 }				  

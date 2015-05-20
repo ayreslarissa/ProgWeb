@@ -1,0 +1,13 @@
+     p{
+    		border: 10px solid;
+			border-top-right-radius: 45px;
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 45px;
+			border-bottom-right-radius: 10px;
+            background-color: lightgray;            
+            padding-top: 10px;
+            padding-bottom: 6px;
+            padding-right: 16px;
+            padding-left: 30px;
+			width:300px;
+			}
