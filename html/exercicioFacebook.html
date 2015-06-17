@@ -1,0 +1,80 @@
+<html>
+	<head>
+		
+		<meta charset='UTF-8'>
+		<title>Batman</title>
+
+	</head>
+
+	<style>
+
+		textarea{
+			width: 500px;
+			height: 50px;
+			float: left;
+			position: absolute;
+			margin-top: 30px;
+
+
+		}
+		#curtir{
+
+			float: left;
+		}
+
+		#btncomentar{
+
+			float: left;
+			margin-top: 100px;
+            position: absolute;
+
+		}
+        #areaComentario{
+            position: absolute;
+
+        }
+
+	</style>
+
+	<body>
+		<table>
+            <thead>
+            	<th>
+            		<img src="C:\Users\Larissa\Documents\UFAM\Faculdade\7o Período\WEB\ProgWeb\img\batman.png" width="100" height="90"
+            			 alt="batman"></th>
+            	<th>
+            		<h2>Batman</h2>
+            	</th>
+            </thead>
+        </table>
+
+		<p>Ou se morre como herói, ou vive-se o bastante para se tornar o vilão.</p>
+        <p id = "curtidas"> 0 pessoas curtiram isso. </p>
+
+		<button name="curtir"id="curtir">Curtir</button>
+        <br/>
+        <br/>
+        <span id = "comentario"></span>
+		<button id="btncomentar">Comentar</button>
+		<textarea id = "areaComentario" name= "areaComentario" rows = "100" cols = "50"></textarea>
+        <pre id = "results"></pre>
+
+        <script>
+
+				var clique = document.getElementById("curtir");    //referencia botão "curtir"
+                var cont = 0;    //conta o numero de cliques no botão
+
+				clique.onclick = function(){        //função para contar os cliques
+                   cont++;              //incrementa os cliques
+                   curtidas.innerHTML = cont + " pessoas curtiram isso.";   //atualiza a qtd de cliques
+				}
+
+                document.querySelector('button#btncomentar').onclick = function() {
+                    var comentario = document.querySelector('span#comentario');
+                    comentario.innerHTML = areaComentario.value;
+
+				};
+
+			</script>
+	</body>
+</html>
