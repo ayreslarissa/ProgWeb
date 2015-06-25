@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="br">
+	<head>
+		<meta charset="utf-8">	
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<title>Minha primeira página</title>
+		
+		<style type="text/css">
+			textarea{
+			height:200px;
+			width:400px;
+			}
+
+		</style>
+</head>
+
+	<body>
+		<h1> Este é um grande cabeçalho </h1>
+		<h2> E este aqui é um pequeno cabeçalho </h2>
+		<p> Aqui eu coloquei um parágrafo com algum texto aleatório, e a seguir <br/>vou inserir um formulário dentro
+		de uma tabela. Além disso, aqui vai<br/> um link: <a href="http://icomp.ufam.edu.br/index.php/institucional/sobre-icomp/corpo-docente/78-kaitie-leslie" target="_blank">
+		Instituto de Computação - David Fernandes</a>.</p>
+		<form method="GET" action="processa.php">
+			Seu nome: <input type="text" maxlength=35 name="nome"></input> <br/><br/>
+			Seu sexo: <select name="genero">
+			<option name = "masculino" value="masculino">Masculino</option>
+			<option name = "feminino" value="feminino">Feminino</option>
+			</option>
+			</select> <br /><br />
+			Seus comentários: <textarea name="comentarios" rows="10" cols="30"></textarea> <br /><br />
+			<button>Enviar</button>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF54F4), to(#FF9EFC), color-stop(.6,#FFFFFF));
+	background-repeat:no-repeat;
+	background-size:10000px;
+	background-position:center;
+}
+
+h1{
+
+	padding-left:100px;
+}
+p{
+	padding-left:100px;
+}
