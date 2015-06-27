@@ -1,0 +1,68 @@
+body{
+    background:url('quadrados.jpg');
+    background-size:1700px;
+    background-repeat:no-repeat;
+}
+
+#tabelaQ{
+    
+    background-color: #FFFFFF;   
+	float: left;
+	border-collapse: separate;
+	border-style: ridge;    
+}
+
+#tplacar{
+        float: left;
+        border-collapse: separate;
+	    border-style: dotted;
+        border-color: white; 
+        border-top-left-radius: 10pt;
+        border-top-right-radius:  10pt;
+        border-bottom-right-radius:  10pt;
+        border-bottom-left-radius:  10pt;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 7px;
+        width: 200pt;
+        background-color: #666666;
+}
+#nomeplacar{  
+    
+    color: #ffffff;
+    font-family: courier,monospace;
+    font-size: 16pt;
+
+}
+#vez{
+    color: #FFFFFF;
+    font-family: courier,monospace;
+    width: 170pt;
+    float: left;
+    
+}
+
+#jogador1, #jogador2{
+    color: #FFFFFF;
+    font-family: courier,monospace;
+    width: 100pt;
+    float: left;
+
+    
+}
+
+#pre1, #pre2{
+    color: #FFFFFF;
+    font-family: courier,monospace;
+}
+
+#pontosJ1, #pontosJ2{
+    color: #FFFFFF;
+    font-family: courier,monospace;    
+
+}
+
+#imgJ1, #imgJ2{
+    float: left;
+    width: 40px;  
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jogo dos Quadrados</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="squareGameCss.css">
+    </head>
+  
+    <body >
+        
+<!-- TABELA DO JOGO ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////        -->
+
+        <table class="tabelamatriz" id="tabelaQ" > 
+
+<!--  TABELA DA PONTUAÇÃO ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////        -->
+            
+                    <table id="tplacar">
+                        <tr>
+                            <td>
+                                <caption id="nomeplacar" >PLACAR</caption>
+                            </td> 
+                        </tr>
+
+                        <tr>        
+                            <td  id="imgJ1"> <img src ="squares/p1.gif"></td>                    
+                            <td align="middle" id="jogador1">Jogador 1: </td>
+                        </tr>                       
+                        <tr>
+                            <td>
+                                <pre id="pre1">  Pontos: <span id="pontosJ1">0<span>
+                                </pre>
+                            </td>
+
+                        <tr>
+                            <td  id="imgJ2"> <img src ="squares/p2.gif"></td>  
+                            <td align="middle" id="jogador2">Jogador 2: </td>
+                        </tr>
+                        <tr>
+                            <td><pre id="pre2">  Pontos: <span id="pontosJ2">0</span></pre></td>
+                        </tr>
+
+                        <tr>
+                            <td> <pre id = "vez"> Jogador 1, é sua vez! </pre> </td>
+                        </tr>   
+
+                        </tr>
+        </table>                                    
+
+        <script  src="squareGameJS.js"/>                      
+        </script>
+        
+    </body>
+</html>
